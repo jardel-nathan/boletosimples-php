@@ -2,7 +2,7 @@
 -
     request:
         method: GET
-        url: 'https://sandbox.boletosimples.com.br/api/v1/customers/1'
+        url: 'https://api.kobana.com.br/v1/customers/1'
         headers:
             Host: sandbox.boletosimples.com.br
             Accept-Encoding: null

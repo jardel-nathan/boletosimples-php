@@ -11,7 +11,7 @@ class ConfigurationTest extends PHPUnit_Framework_TestCase {
     $this->assertNull ($this->subject->application_id);
     $this->assertNull ($this->subject->application_secret);
     $this->assertNull ($this->subject->access_token);
-    $this->assertEquals ($this->subject->baseUri(), 'https://sandbox.boletosimples.com.br/api/v1/');
+    $this->assertEquals ($this->subject->baseUri(), 'https://api.kobana.com.br/v1/');
     $this->assertFalse ($this->subject->hasAccessToken());
 	}
   public function testUserAgent() {

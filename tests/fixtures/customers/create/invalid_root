@@ -2,7 +2,7 @@
 -
     request:
         method: POST
-        url: 'https://sandbox.boletosimples.com.br/api/v1/customers'
+        url: 'https://api.kobana.com.br/v1/customers'
         headers:
             Host: sandbox.boletosimples.com.br
             Expect: null

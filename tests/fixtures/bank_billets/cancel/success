@@ -2,7 +2,7 @@
 -
     request:
         method: GET
-        url: 'https://sandbox.boletosimples.com.br/api/v1/bank_billets/798'
+        url: 'https://api.kobana.com.br/v1/bank_billets/798'
         headers:
             Host: sandbox.boletosimples.com.br
             Accept-Encoding: null
@@ -35,7 +35,7 @@
 -
     request:
         method: PUT
-        url: 'https://sandbox.boletosimples.com.br/api/v1/bank_billets/798/cancel'
+        url: 'https://api.kobana.com.br/v1/bank_billets/798/cancel'
         headers:
             Host: sandbox.boletosimples.com.br
             Content-Length: '0'
