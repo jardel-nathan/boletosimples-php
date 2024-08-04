@@ -3,7 +3,7 @@
 namespace BoletoSimples;
 
 class Configuration {
-  private $environments_uri = array('sandbox' => 'https://api.kobana.com.br/v1/', 'production' => 'https://boletosimples.com.br/api/v1/');
+  private $environments_uri = array('sandbox' => 'https://api-sandbox.kobana.com.br/v1/', 'production' => 'https://api.kobana.com.br/v1/');
   public $environment = null;
   public $application_id = null;
   public $application_secret = null;
